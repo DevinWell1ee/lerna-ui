@@ -13,7 +13,7 @@
     "build:dev": "cross-env NODE_ENV=development rollup -c",
     "c": "git-cz",
     "u": "lerna clean",
-    "p": "yarn build:prod && leana publish"
+    "p": "yarn build:prod && lerna publish"
   },
   "config": {
     "commitizen": {
