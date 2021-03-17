@@ -1,0 +1,14 @@
+{
+  "name": "e-input",
+  "version": "0.0.0",
+  "main": "dist/cjs/index.js",
+  "module": "dist/es/index.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "lerna clean",
+    "del": "rimraf dist"
+  },
+  "dependencies": {
+    "lodash": "4"
+  }
+}
