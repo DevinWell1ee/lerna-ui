@@ -1,14 +1,13 @@
-import fs from 'fs';
-import path from 'path';
-import json from '@rollup/plugin-json';
-import vue from 'rollup-plugin-vue';
-import postcss from 'rollup-plugin-postcss';
-import { terser } from 'rollup-plugin-terser';
-import { nodeResolve } from '@rollup/plugin-node-resolve';
-import commonjs from '@rollup/plugin-commonjs'; //解析 commonjs模块的形式的包
+import fs from "fs";
+import path from "path";
+import json from "@rollup/plugin-json";
+import vue from "rollup-plugin-vue";
+import postcss from "rollup-plugin-postcss";
+import { terser } from "rollup-plugin-terser";
+import { nodeResolve } from "@rollup/plugin-node-resolve";
+import commonjs from "@rollup/plugin-commonjs"; //解析 commonjs模块的形式的包
 
-
-const isDev = process.env.NODE_ENV !== 'production';
+const isDev = process.env.NODE_ENV !== "production";
 
 // 公共插件配置
 const plugins = [
@@ -32,8 +31,7 @@ const plugins = [
 isDev || plugins.push(terser());
 
 // pacakges 文件夹路径
-const root = path.resolve(__dirname, 'packages');
-
+const root = path.resolve(__dirname, "packages/ui");
 
 module.exports = fs
   .readdirSync(root)
@@ -41,19 +39,19 @@ module.exports = fs
   .filter((item) => fs.statSync(path.resolve(root, item)).isDirectory())
   // 为每一个文件夹创建对应额配置
   .map((item) => {
-    const pkg = require(path.resolve(root, item, 'package.json'));
+    const pkg = require(path.resolve(root, item, "package.json"));
     return {
-      input: path.resolve(root, item, 'index.js'),
+      input: path.resolve(root, item, "index.js"),
       output: [
         {
-          exports: 'auto',
+          exports: "auto",
           file: path.resolve(root, item, pkg.main), // 读取package.json中的main属性
-          format: 'cjs',
+          format: "cjs",
         },
         {
-          exports: 'auto',
+          exports: "auto",
           file: path.resolve(root, item, pkg.module), // 读取package.json中的module属性
-          format: 'es',
+          format: "es",
         },
       ],
       plugins: plugins,

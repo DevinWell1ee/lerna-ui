@@ -1,6 +1,6 @@
 <template>
   <div>
-    <span>{{ label }}变更dddd</span>
+    <span>{{ label }}变更ddddggg</span>
 
     <input type="text" />
   </div>
