@@ -1,28 +1,26 @@
 <template>
   <div>
-    <span>{{ label }}</span>
+    <span>{{ label }}变更</span>
 
-    <input type="text">
+    <input type="text" />
   </div>
 </template>
 
 <script>
-  var _ = require('lodash')
+var _ = require("lodash");
 
-  export default {
-    name: 'eInput',
-    props: {
-      label: {
-        type: String,
-        default: () => '默认label'
-      }
+export default {
+  name: "eInput",
+  props: {
+    label: {
+      type: String,
+      default: () => "默认label",
     },
-    created() {
-      console.log(_.map([1, 2, 3], o => o * 2))
-    }
-  }
+  },
+  created() {
+    console.log(_.map([1, 2, 3], (o) => o * 2));
+  },
+};
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
