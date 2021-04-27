@@ -1,6 +1,6 @@
 {
   "name": "e-form",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
   "license": "MIT",
@@ -9,6 +9,6 @@
     "del": "rimraf dist"
   },
   "dependencies": {
-    "e-input": "^0.1.0"
+    "e-input": "^0.2.0"
   }
 }
