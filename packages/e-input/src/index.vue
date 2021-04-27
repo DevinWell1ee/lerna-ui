@@ -1,6 +1,6 @@
 <template>
   <div>
-    <span>{{ label }}变更</span>
+    <span>{{ label }}变更dddd</span>
 
     <input type="text" />
   </div>
@@ -19,6 +19,7 @@ export default {
   },
   created() {
     console.log(_.map([1, 2, 3], (o) => o * 2));
+    console.log("@@@");
   },
 };
 </script>
