@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/DevinWell1ee/lerna-ui/compare/e-form@0.7.0...e-form@0.8.0) (2021-05-10)
+
+
+### Features
+
+* **asdass:** asdad ([baec61f](https://github.com/DevinWell1ee/lerna-ui/commit/baec61fc815df8b4ff2ec6596b6dc9e714f7b7e0))
+
+
+
+
+
 # 0.7.0 (2021-05-10)
 
 
