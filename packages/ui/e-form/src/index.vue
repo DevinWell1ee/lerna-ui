@@ -4,7 +4,7 @@
 
     <eInput label="item two ddd" />
 
-    <eInput label="item three" />
+    <eInput label="item three sadasdasda" />
   </div>
 </template>
 
