@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/DevinWell1ee/lerna-ui/compare/v0.5.0...v0.6.0) (2021-05-10)
+
+
+### Features
+
+* **asdad:** asdasd ([c84aa82](https://github.com/DevinWell1ee/lerna-ui/commit/c84aa82ee106687eb98c87d03a569ac2f423e9e9))
+
+
+
+
+
 # [0.5.0](https://github.com/DevinWell1ee/lerna-ui/compare/v0.4.0...v0.5.0) (2021-05-10)
 
 **Note:** Version bump only for package e-button
