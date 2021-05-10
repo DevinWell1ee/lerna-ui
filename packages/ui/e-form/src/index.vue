@@ -4,7 +4,7 @@
 
     <eInput label="item two ddd" />
 
-    <eInput label="item three sadasdasda" />
+    <eInput label="item three sadasdasda啊实打实的" />
   </div>
 </template>
 
