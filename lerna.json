@@ -2,7 +2,7 @@
   "packages": [
     "packages/ui/*"
   ],
-  "version": "0.6.1",
+  "version": "independent",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "command": {
