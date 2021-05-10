@@ -2,7 +2,7 @@
   <div>
     <eInput label="item one" />
 
-    <eInput label="item two" />
+    <eInput label="item two ddd" />
 
     <eInput label="item three" />
   </div>
