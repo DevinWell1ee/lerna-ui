@@ -1,6 +1,6 @@
 <template>
   <div>
-    <eInput label="item one" />
+    <eInput label="item onadase" />
 
     <eInput label="item two ddd" />
 
